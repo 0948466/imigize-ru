@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="./static/favicon.png">
+  <meta name="description"
+        content="Imigize - is the world first contactless 3D fitting service for on-line footwear purchase. Customers no longer have to go shopping for a fitting pair of shoes or get disappointed that footwear bought in an on-line shop doesn’t fit. Now anyone can buy footwear on-line and be sure that it is going to be comfortable as if you would try it on and buy it in a regular shop."/>
+  <meta name="keywords"
+        content="Imigize, имиджайз, имаджайз, технология бесконтактной примерки обуви, feet, fitting, shoes"/>
+  <title>Contactless shoe fitting in on-line shopping</title>
+  <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter48325655 = new Ya.Metrika({ id:48325655, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/48325655" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
+</body>
+</html>
